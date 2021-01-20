@@ -36,11 +36,11 @@
     </script>
     <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase-database.js"></script>
     <script src="https://basitoyun-a6df4-default-rtdb.firebaseio.com/"></script>
-    <div class="row" style="margin-top:40px;">
+    <div class="row" style="margin-top:60px;">
         <div class="container">
             <div class="card bg-light" style="height:80%;">
                 <div class="card-header">
-                    Sohbet Uygulaması
+                    Webmesage
                 </div>
                 <div class="card-body" style="max-height: 80%;overflow-y: auto;">
                     <!-- Giriş ekranı tasarımı başlangıcı -->
@@ -60,13 +60,14 @@
                                         </div>
                                         <input type="text" class="form-control" placeholder="Kullanıcı adı giriniz" aria-label="Kullanıcı adı giriniz" aria-describedby="kullanici_adi" id="kadi">
                                     </div>
-                                    <button type="button" onclick="uyeKaydet();" class="form-control btn btn-success">Giriş Yap</button>
+                                 
                                 </div>
+                                <button type="button" onclick="uyeKaydet();" class="form-control btn btn-success">Login </button>
                             </div>
                         </div>
                         <!-- Giriş ekranı tasarımı bitiş -->
 
-                        <div id="chatEkrani" style="display:none;">
+                        <div id="chatEkrani" >
                             <div class="row">
                                 <div id="mesajAlani bg-white" class="col-md-12">
                                     <div class="d-flex">
