@@ -1,0 +1,26 @@
+#hakkimizda {
+    width: 80px;
+    height: 102x;
+    float: right;
+}
+
+#iletisim {
+    float: right;
+    width: 70;
+    height: 102;
+}
+
+#anasayfa {
+    float: right;
+    width: 81;
+    height: 105;
+}
+
+#Site {
+    float: unset;
+}
+
+body {
+    background-color: rgb(16, 8, 10);
+    color: white;
+}
